@@ -1,0 +1,168 @@
+header .navbar {
+    background-color: none;
+}
+header {
+    position: absolute;
+    width: 100%;
+}
+header .nav-link {
+    color: white !important;
+}
+header ul li {
+    margin-right: 8px;
+}
+header ul li:hover {
+    background-color: dodgerblue;
+    border-radius: 0.25em;
+}
+.first {
+    height: 100vh;
+    background: url(../img/first/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.fourth {
+    height: 100vh;
+}
+.fifth {
+    height: 100vh;
+}
+h1 {
+    color: white;
+    font-size: 74px;
+}
+p {
+    color: white;
+    font-size: 24px;
+}
+.btn-primary {
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 32px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+.fifth .btn-primary {
+    padding: 2px 32px;
+}
+footer {
+    background: #252B42;
+}
+footer ul li, footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+}
+footer p {
+    font-size: 18px;
+}
+footer p {
+    margin-bottom: 0px;
+}
+input[type=email] {
+    border-radius: 2em;
+}
+@media only screen and (max-width: 1275px) {
+    .fourth .img-fourth {
+        text-align: center;
+        padding-top: 64px;
+    }
+    .fourth .img-fourth img {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .fourth {
+        padding-top: 8px !important;
+        text-align: center;
+    }
+    .fifth {
+        text-align: center;
+    }
+    .fourth .img-fourth {
+        padding-top: 16px;
+    }
+    .fourth .img-fourth img {
+        width: 60%;
+        margin-top: 12px;
+    }
+    footer {
+        margin-top: 360px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 18px;
+    }
+    header .img-r a img{
+        width: 70%;
+    }
+    .fourth {
+        padding-top: 8px !important;
+        text-align: center;
+    }
+    .fifth {
+        text-align: center;
+    }
+    .fourth .img-fourth {
+        padding-top: 16px;
+    }
+    .fourth .img-fourth img {
+        width: 60%;
+        margin-top: 12px;
+    }
+    footer {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 18px;
+    }
+    header .img-r a img{
+        width: 70%;
+    }
+    .fourth {
+        padding-top: 8px !important;
+        text-align: center;
+    }
+    .fifth {
+        text-align: center;
+    }
+    .fourth .img-fourth {
+        padding-top: 16px;
+    }
+    .fourth .img-fourth img {
+        width: 60%;
+        margin-top: 12px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .fifth .btn-primary {
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 18px;
+    }
+    .img-mot {
+        margin-left: 100px;
+    }
+}
+
